@@ -1,0 +1,27 @@
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row:after, .row:before {
+    content: ' ';
+    display: table;
+}
+
+.row:after { clear: both;}
+
+
+[class*='col-'] {
+    float: left;
+    display: table-cell
+}
+
+.col-1 { width: calc(12.5% - .5em) }
+.col-2 { width: calc(25% - .5em) }
+.col-3 { width: calc(37.5% - .5em) }
+.col-4 { width: calc(50% - .5em) }
+.col-5 { width: calc(62.5% - .5em) }
+.col-6 { width: calc(75% - .5em) }
+.col-7 { width: calc(87.5% - .5em) }
+.col-8 { width: calc(100% - .5em) }

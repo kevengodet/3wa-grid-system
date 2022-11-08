@@ -1,0 +1,31 @@
+.grid { 
+    width: 100%;
+    background-color: beige;
+}
+
+[class*='col-'] {
+    background-color: darkkhaki;
+    padding: .5em;
+    text-align: center;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  
+.row > [class*='col-'] {
+    margin-left: .5em;
+}
+
+.row > [class*='col-']:first-of-type {
+    margin-left: 0;
+}
+
+.row {
+    margin-bottom: .5em;;
+}
+.row:last-of-type {
+    margin-bottom: 0;
+}

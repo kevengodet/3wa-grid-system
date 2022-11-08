@@ -1,0 +1,45 @@
+.row {
+    display: flex;
+    flex: 0 1 auto;   
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+[class*='col-'] {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.col-1 { 
+    flex-basis: calc(12.5% - .5em);
+    max-width: calc(12.5% - .5em); 
+}
+.col-2 { 
+    flex-basis: calc(25% - .5em); 
+    max-width: calc(25% - .5em); 
+}
+.col-3 { 
+    flex-basis: calc(37.5% - .5em); 
+    max-width: calc(37.5% - .5em); 
+}
+.col-4 { 
+    flex-basis: calc(50% - .5em); 
+    max-width: calc(50% - .5em); 
+}
+.col-5 { 
+    flex-basis: calc(62.5% - .5em); 
+    max-width: calc(62.5% - .5em); 
+}
+.col-6 { 
+    flex-basis: calc(75% - .5em); 
+    max-width: calc(75% - .5em) 
+}
+.col-7 { 
+    flex-basis: calc(87.5% - .5em); 
+    max-width: calc(87.5% - .5em); 
+}
+.col-8 { 
+    flex-basis: calc(100% - .5em); 
+    max-width: calc(100% - .5em); 
+}
